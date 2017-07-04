@@ -28,6 +28,7 @@ def Conversion(VND):
 
 #write answer to clipboard
 #found on StackOverflow, thanks DejaVu_Loop 
+#only works on Mac afak
 
 def writeToClipboard(data):
 	p = subprocess.Popen(['pbcopy'], stdin=subprocess.PIPE)
